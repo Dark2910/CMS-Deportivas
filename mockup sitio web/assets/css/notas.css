@@ -1,0 +1,22 @@
+.notas{
+    background-color: #e1e2e6;
+    text-align: center;
+    position: relative;
+    padding: 75px 0;
+    display: flex;
+}
+
+.notas-aside{
+    width: 25%;
+}
+
+.txt-p{
+    font-size: 24px;
+    text-align: justify;
+}
+
+.nota-1 h3{
+    text-align: left;
+    text-transform: uppercase;
+    margin-top: 20px;
+}

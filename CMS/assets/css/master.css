@@ -1,0 +1,167 @@
+.header img{
+    max-width: 100%;
+    height: auto;
+}
+
+.container{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+/* Navbar */
+.navabar {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+    width: 100%;
+    border-bottom: 1px solid rgba(100, 100, 100, .3);
+}
+.navabar div{
+    display: flex;
+    padding: 0 25px;
+    line-height: 75px;
+}
+.navabar nav{
+    line-height: 75px;
+}
+.navabar a{    
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    line-height: normal;
+    font-size: 14px;
+    transition: all 500ms ease;
+    border-bottom: 4px solid transparent;
+}
+.navabar a:hover{
+    color: rgb(40,167,69);
+    border-bottom: 4px solid rgb(40,167,69);
+}
+
+/*Main*/
+.main{
+    display: flex;
+}
+.main-content{
+    text-align: justify;
+}
+
+.main-content h2{
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+/**/
+.main-sidebar {
+    width: 25%;
+    border: 1px solid rgba(100, 100, 100, .3);
+}
+.main-sidebar img{
+	padding: 5px;
+    height: 75px; 
+}
+.main-sidebar nav a{
+    display: block;
+    padding: 10px;
+    color: black; 
+    text-decoration: none;
+	transition: all 500ms ease;
+    border-left: 5px solid transparent;
+	border-bottom: 1px solid rgba(100, 100, 100, .3);
+}
+.main-sidebar nav a:hover{
+    color: rgb(40,167,69);
+    border-left: 4px solid rgb(40,167,69);
+}
+/**/
+.main-menu{
+    padding: 15px;
+    /* Estilo necesario */
+    border-radius: 10px;
+    border: 1px solid rgba(100, 100, 100, .3);
+}
+.main-menu ul{
+    list-style: none;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-menu li a{
+    padding: 10px 20px;
+    color: black;
+}
+.main-menu li:hover a:hover{
+    color: rgb(40,167,69);
+    border-bottom: 4px solid rgb(40,167,69);
+}
+/**/
+
+
+
+
+
+
+
+
+
+/*Section*/
+.section-content{
+    text-align: justify;
+}
+
+.section-content h2{
+    text-transform: uppercase;
+}
+
+.section-forms{
+    padding: 25px;
+}
+
+.section-forms h3{
+    text-transform: uppercase;
+}
+
+.section-forms label{
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+/**/
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.footer{
+    background-color: rgb(235, 235, 235);
+    position: relative;
+    bottom: 0%;
+}
+
+.footer-1{
+    padding: 0 25px; 
+    margin: 5px;
+    width: 33.3%;
+}
+.footer-1 h2{
+    
+    text-transform: uppercase;
+      
+}
+.footer-1 p{
+    font-size: 15px; 
+}
+
+.footer-redes img{
+    width: 30;
+}
+
